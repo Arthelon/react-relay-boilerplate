@@ -5,8 +5,7 @@ const Index = (props) => {
     console.log(props)
     return (
         <div>
-            <h1>Index Component</h1>
-            <h1>{props.store.item.title}</h1>
+            <h1>React Relay Boilerplate</h1>
         </div>
     )
 }
