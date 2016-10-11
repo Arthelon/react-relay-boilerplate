@@ -1,0 +1,33 @@
+{
+  "name": "react-relay-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server --hot --inline",
+    "flow": "flow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel <hsing.daniel@gmail.com> (http://arthelon.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-relay-plugin": "^0.9.3",
+    "flow-bin": "^0.33.0",
+    "node-fetch": "^1.6.3",
+    "sync-request": "^3.0.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-relay": "^0.9.3",
+    "react-router": "^2.8.1",
+    "react-router-relay": "^0.13.5"
+  }
+}
